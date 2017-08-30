@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+}
+
+
+#phone {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    font-size: 3em;
+    color: black;
+}
+
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+  }
+
+section:nth-of-type(2n) {
+  background-color: #F0F1F2;  
+
+}
+
+.intro {
+  height: 100vh;
+  background: url('background.jpg') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.yt-container {
+  height: 70vh;
+}
+
+.yt {
+  height: 276px;
+  background: url('img/yt.png') center center no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.yt-title{
+  text-align: center;
+}
+
+.intro h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 6em;
+  display: block;
+  color: white;
+  font-weight: 300;
+  text-shadow: 0 0 15px black;
+}
+
+.intro h2 {
+  color: white;
+  font-family: 'Anton', cursive;
+  font-size: 4em;
+  text-shadow: 0 0 15px black;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.display {
+  padding-bottom: 10px;
+  background-color: rgba(240,241,242,0.6);
+}
+
+.quote {
+  height: 30vh;
+  text-align: center;
+}
+
+.quote p { 
+  font-size: 1.5em;
+}
+
+.map {
+  text-align: center;
+  color: white;
+}
+
+.map h2 {
+  font-size: 4em;
+}
+
+.country-list ul > li {
+  padding-top: 20px;
+  font-family: Questrial, sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#googleMap { 
+  margin-top: 10px;
+  height: 500px;
+  -webkit-filter: grayscale(0.2);
+  display: block;
+}
+
+.reviews { 
+  text-align:center;
+  height: 30vh;
+ }
+
+
+img.team {
+  width: 100%;
+  height: 100%;
+  border-radius: 200px;
+}
+
+.reviews {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.reviews p {
+  color: white;
+  padding-bottom: 10px;
+  font-family: Questrial;
+}
+
+.reviews h2 {
+  color: white;
+}
+
+
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #373B44;
+  color: white;
+  
+  a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+  }
+}
+
+.yt {
+  background-image: url(img/yt.png)  no-repeat;
+  background-size: cover;
+}
+
